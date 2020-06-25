@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/styleRumus.css">
+    </head>
+
+    <body>
+        <div class="back">
+            <a href="hitungLuas.html">
+              <img src="../img/back.jpg">
+            </a>
+        </div>
+       <section>
+            <nav>
+                <h2>Luas Tegak Prisma Segitiga</h2>
+            </nav>
+            <nav>
+                <img src="../img/prisma_segitiga.png">
+            </nav>
+            <nav>
+                <h2>L = t_prisma x a</h2>
+            </nav>
+        </section> 
+        <section>
+            <div class="keys">
+                <div class="outputx">
+                    <output type="text" id="hasilLuasTegakPrisma"></output>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="keys" id="ket">
+                <table>
+                    <tr>
+                        <td><label for="usr">Input t prisma</label></td>
+                        <td>= <input type="text" id="t_prismatp" onkeyup="luasTegakPrisma()"></td> 
+                    </tr>
+                    <tr>
+                        <td><label for="usr">Input a </label></td>
+                        <td>= <input type="text" id="atp" onkeyup="luasTegakPrisma()"></td> 
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <div class="navigasi">
+            <a href="luasPrismaSegitiga.html">
+                <h2>Alas Prisma Segitiga</h2>
+            </a>
+        </div>
+        <div class="navigasi">
+            <a href="luasPermukaanPS.html">
+                <h2>Permukaan Jajar Genjang</h2>
+            </a>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>    

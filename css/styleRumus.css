@@ -1,0 +1,121 @@
+header {
+    /* background-color: #666; */
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    /* color: white; */
+}
+section {
+    display: -webkit-flex;
+    display: flex;
+    /* background-color: #ccc; */
+}
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    /* background: #ccc; */
+    padding: 10px;
+    margin: 1px;
+}
+input{
+    border: none;
+}
+
+.back{
+    margin-bottom: 20px;
+}
+
+.keys a{
+    text-decoration: none;
+    color: black;
+}
+.keys p{
+    font-size: 16;
+    padding: 0;
+    margin: 0;
+}
+.keys h2,h4{
+    text-align: center;
+}
+.back a img{
+    width: 18;
+    height: 18;
+    float: right;
+    margin-right: 15;
+}
+.keys{
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+.keys img{
+    max-width: 120px;
+    max-height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+.keys table{
+    left: 12px;
+}
+
+.bot{
+    background-color: burlywood;
+    /* text-decoration: none; */
+    font-size: 18px;
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+    /* justify-content: center; */
+}
+.bot a{
+    text-decoration: none;
+    justify-content: center;
+}
+section nav img{
+    max-width: 60px;
+    max-height: 60px;
+}
+section nav h2{
+    text-align: center;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+.outputx {
+    background-color: mintcream;
+    margin: 5px 10px;
+    padding: 10px;
+    text-align: right;
+    /* font-size: 30px; */
+
+}
+
+.outputx output{
+    /* text-align: right; */
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+}
+label, input{
+    font-size: 25px;
+}
+.navigasi a{
+    text-decoration: none;
+}
+.navigasi a h2{
+    text-align: center;
+    color: black;
+}

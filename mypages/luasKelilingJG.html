@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/styleRumus.css">
+    </head>
+
+    <body>
+        <div class="back">
+            <a href="hitungLuas.html">
+              <img src="../img/back.jpg">
+            </a>
+        </div> 
+       <header>
+            <h2>Menghitung Luas Jajar Genjang</h2>
+       </header> 
+        
+        <section>
+            <div class="keys">
+                    <img src="../img/jajar_genjang.jpg" alt="jajarGenjang">
+            </div>
+            <div class="keys">
+                <p>Rumus Jajar Genjang</p>
+                <P>Ket :</P>
+                <p>a = alas</p>
+                <p>t = tinggi</p>
+            </div>
+        </section>
+        <section>
+            <div class="keys" id="ket">
+                <h2>Keliling Jajar Genjang</h2>
+                <h4>L = a x t</h4>
+                <table>
+                    <tr>
+                        <td><label for="usr">Input a</label></td>
+                        <td>= <input type="text" id="ajg" onkeyup="luasJarjarGenjang()"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="usr">Input t</label></td>
+                        <td>= <input type="text" id="tjg" onkeyup="luasJarjarGenjang()"></td>
+                    </tr>
+                    <tr>
+                        <td><label> Hasil</label></td>
+                        <td>= <output type="text" id="hasilLuasJajarGenjang"></output></td>
+                    </tr>
+
+                </table>    
+            </div>
+            <div class="keys" id="ket">
+                <h2>Keliling Jajar Genjang</h2>
+                <h4>k = 2 x a + 2 x s</h4>
+                <table>
+                    <tr>
+                        <td><label for="usr">Input a</label></td>
+                        <td>= <input type="text" id="akjg" onkeyup="kelilingJarjarGenjang()"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="usr">Input s</label></td>
+                        <td>= <input type="text" id="sjg" onkeyup="kelilingJarjarGenjang()"></td>
+                    </tr>
+                    <tr>
+                        <td><label> Hasil</label></td>
+                        <td>= <output type="text" id="hasilKelilingJajarGenjang"></output></td>
+                    </tr>
+
+                </table>    
+            </div>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>    
